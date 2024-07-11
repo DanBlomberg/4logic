@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import Footer from '$lib/compononents/footer.svelte';
 
 	// Highlight JS
 	import hljs from 'highlight.js/lib/core';
@@ -53,6 +54,7 @@
 				</a>
 			</svelte:fragment>
 		</AppBar>
+		<Footer />
 	</svelte:fragment>
 	<!-- Page Route Content -->
 	<slot />

@@ -1,8 +1,4 @@
 <!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
-<script>
-	import Footer from '$lib/compononents/footer.svelte';
-</script>
-
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center flex flex-col items-center">
 		<h2 class="h2">4Logic Software</h2>
@@ -36,8 +32,6 @@
 		</div>
 	</div>
 </div>
-
-<Footer />
 
 <style lang="postcss">
 	figure {
