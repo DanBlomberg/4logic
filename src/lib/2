@@ -1,0 +1,17 @@
+<script>
+	import { Button, Dropdown, DropdownItem, DropdownDivider } from 'flowbite-svelte';
+	import { DotsVerticalOutline } from 'flowbite-svelte-icons';
+	import { darkMode } from '$lib/stores/darkmode';
+</script>
+
+<DotsVerticalOutline class="dots-menu" />
+
+<Darkmode />
+<Dropdown Button triggeredBy=".dots-menu">
+	<DropdownItem href="/technology">Technology Stack</DropdownItem>
+	<DropdownItem href="/references">references</DropdownItem>
+	<DropdownItem href="/priceing">Project Pricing</DropdownItem>
+	<DropdownItem href="/languages">Languages</DropdownItem>
+	<DropdownDivider />
+	<DropdownItem href="/about" slot="footer">about</DropdownItem>
+</Dropdown>

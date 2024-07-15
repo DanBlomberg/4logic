@@ -26,7 +26,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl">4Logic</strong>
+				<a href="/" class="text-xl">4Logic</a>
 			</svelte:fragment>
 			<Dropdown />
 			<svelte:fragment slot="trail">
@@ -56,6 +56,7 @@
 				</a>
 			</svelte:fragment>
 		</AppBar>
+
 		<Footer />
 	</svelte:fragment>
 	<!-- Page Route Content -->
