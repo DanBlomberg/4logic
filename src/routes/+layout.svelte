@@ -2,6 +2,7 @@
 	import '../app.postcss';
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
 	import Footer from '$lib/compononents/footer.svelte';
+	import Dropdown from '$lib/compononents/menuNavBar.svelte';
 
 	// Highlight JS
 	import hljs from 'highlight.js/lib/core';
@@ -25,8 +26,9 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">4Logic</strong>
+				<a href="/" class="text-xl">4Logic</a>
 			</svelte:fragment>
+			<Dropdown />
 			<svelte:fragment slot="trail">
 				<a
 					class="btn btn-sm variant-ghost-surface"
@@ -54,6 +56,7 @@
 				</a>
 			</svelte:fragment>
 		</AppBar>
+
 		<Footer />
 	</svelte:fragment>
 	<!-- Page Route Content -->
