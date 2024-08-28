@@ -10,5 +10,6 @@
 	<DropdownItem href="/references">references</DropdownItem>
 	<DropdownItem href="/pricing">Project Pricing</DropdownItem>
 	<DropdownItem href="/languages">Languages</DropdownItem>
+	<DropdownItem href="/HCP">HCP</DropdownItem>
 	<DropdownItem href="/about">about</DropdownItem>
 </Dropdown>

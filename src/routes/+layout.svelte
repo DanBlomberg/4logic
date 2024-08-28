@@ -32,6 +32,30 @@
 			<svelte:fragment slot="trail">
 				<a
 					class="btn btn-sm variant-ghost-surface"
+					target="_blank"
+          href="/gallery"
+					rel="noreferrer"
+				>
+					Feature Gallery 
+				</a>
+				<a
+					class="btn btn-sm variant-ghost-surface"
+					target="_blank"
+          href="/HCP"
+					rel="noreferrer"
+				>
+					Gallery
+				</a>
+				<a
+					class="btn btn-sm variant-ghost-surface"
+					target="_blank"
+          href="/pricing"
+					rel="noreferrer"
+				>
+					Pricing
+				</a>
+				<a
+					class="btn btn-sm variant-ghost-surface"
 					href="https://www.linkedin.com/in/daniel-blomberg-iv"
 					target="_blank"
 					rel="noreferrer"

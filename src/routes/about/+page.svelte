@@ -4,4 +4,7 @@
 
 <h1>About 4Logic!</h1>
 
-<p>Welcome to 4Logic Software. I'm a Software Developer with over 25 years of experience.</p>
+<p>
+	NeoVim User, Lazygit navigator, student of bits and bytes with 25 years of experience. Payments
+	software specialist in various ISO 8583 formats, JSON, XML, and other proprietary payment layouts.
+</p>

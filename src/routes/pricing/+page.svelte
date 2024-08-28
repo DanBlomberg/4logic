@@ -4,30 +4,43 @@
 	// Define your pricing tiers or plans here
 	let plans = [
 		{
-			name: 'Basic',
-			price: '$99',
-			features: ['Feature 1', 'Feature 2', 'Feature 3']
+			name: 'Basic Usage and Reporting',
+			features: [
+				'Standard Transaction set',
+				'48 hour support response guaruntee',
+				'Automated regression'
+			],
+			price: '$1199'
 		},
 		{
-			name: 'Standard',
-			price: '$199',
-			features: ['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4']
+			name: 'Premium Usage and Reporting',
+			features: [
+        'Basic+', 
+        'Custom Build', 
+        '24 hour support response guaruntee', 
+        'Feature 4'
+      ],
+			price: '$2499'
 		},
 		{
-			name: 'Premium',
-			price: '$299',
-			features: ['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4', 'Feature 5']
+			name: 'Ultimate Usage and Reporting',
+			features: [
+        'Feature 1', 
+        'Feature 2', 
+        'Feature 3', 
+        'Feature 4', 'Feature 5'],
+			price: '$4999'
 		}
 	];
 </script>
 
 <div>
-	<h1>Our Pricing Plans</h1>
 	{#each plans as plan}
+		<h1>Pricing Plans services</h1>
 		<div class="plan">
 			<h2>{plan.name}</h2>
-			<div class="price">{plan.price} / month</div>
 			<ul>
+				<div class="price">{plan.price} / month</div>
 				{#each plan.features as feature}
 					<li>{feature}</li>
 				{/each}
