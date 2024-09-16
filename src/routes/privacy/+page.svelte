@@ -2,21 +2,9 @@
   // You can add any script needed for interactivity here
 </script>
 
-<style>
-  /* Add any styles you need here */
-  .privacy-policy {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-  }
-  h1, h2 {
-    color: #333;
-  }
 </style>
-
 <div class="privacy-policy">
+
   <h1>Privacy Policy</h1>
   <p><strong>Effective Date:</strong> [Insert Date]</p>
 
@@ -78,12 +66,26 @@
 
   <h2>9. Contact Us</h2>
   <p>If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:</p>
-  <p>[Your Company Name]<br>
+  <p>[4logic.io]<br>
   [Your Contact Information]<br>
   [Your Email Address]<br>
   [Your Phone Number]<br>
   [Your Mailing Address]</p>
 
   <p>By using our services or accessing our website, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.</p>
+  <style>
 </div>
+  /* Add any styles you need here */
+  .privacy-policy {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  h1, h2 {
+    color: #333;
+  }
+</style>
+
 
