@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Hanson Custom Painting</title>
+  <title>**Hanson Custom Painting</title>
 </svelte:head>
 
 <script>

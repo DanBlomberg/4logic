@@ -2,8 +2,6 @@
   // You can add any script needed for interactivity here
 </script>
 
-</style>
-<div class="privacy-policy">
 
   <h1>Privacy Policy</h1>
   <p><strong>Effective Date:</strong> [Insert Date]</p>
@@ -74,7 +72,6 @@
 
   <p>By using our services or accessing our website, you acknowledge that you have read and understood this Privacy Policy and agree to its terms.</p>
   <style>
-</div>
   /* Add any styles you need here */
   .privacy-policy {
     max-width: 800px;
