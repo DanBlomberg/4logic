@@ -1,4 +1,6 @@
-<!-- YOU CAN DELETE EVERYTHING IN THIS PAGE -->
+<script>
+  // import AnimatedGradientText from '$lib/compononents/AnimatedGradientText.svelte';
+</script>
 <div class="container h-full mx-auto flex justify-center items-center">
 	<div class="space-y-10 text-center flex flex-col items-center">
 		<h2 class="h2">4Logic Software</h2>
@@ -28,6 +30,7 @@
 			</a>
 		</div>
 		<div class="space-y-2">
+    <!-- <AnimatedGradientText text="4th Dimension Developement! " /> -->
 			<p>4th Dimension Development</p>
 		</div>
 	</div>
