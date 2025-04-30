@@ -1,8 +1,10 @@
 <script>
+  import { fade } from 'svelte/transition';
   // import AnimatedGradientText from '$lib/compononents/AnimatedGradientText.svelte';
 </script>
+
 <div class="container h-full mx-auto flex justify-center items-center">
-	<div class="space-y-10 text-center flex flex-col items-center">
+	<div class="space-y-10 text-center flex flex-col items-center" in:fade>
 		<h2 class="h2">4Logic Software</h2>
 		<!-- Animated Logo -->
 		<figure>
@@ -22,16 +24,33 @@
 		<div class="flex justify-center space-x-2">
 			<a
 				class="btn variant-filled"
-				href="mailto:blomberg.dan@gmail.com/"
+				href="mailto:blomberg.dan@gmail.com"
 				target="_blank"
 				rel="noreferrer"
 			>
-				Request Consult
+				Request Consultation
 			</a>
 		</div>
-		<div class="space-y-2">
-    <!-- <AnimatedGradientText text="4th Dimension Developement! " /> -->
-			<p>4th Dimension Development</p>
+		<div class="space-y-2 max-w-2xl">
+			<h3 class="h3">Professional Web Development Solutions</h3>
+			<p class="text-lg">
+				Transforming ideas into powerful digital experiences. Led by Daniel Blomberg IV, 4Logic specializes in 
+				creating modern, scalable, and user-centric web applications.
+			</p>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+				<div class="card p-4">
+					<h4 class="h4 mb-2">Modern Tech Stack</h4>
+					<p>Built with cutting-edge technologies for optimal performance and scalability</p>
+				</div>
+				<div class="card p-4">
+					<h4 class="h4 mb-2">Custom Solutions</h4>
+					<p>Tailored development approaches to meet your specific business needs</p>
+				</div>
+				<div class="card p-4">
+					<h4 class="h4 mb-2">Responsive Design</h4>
+					<p>Beautiful, functional websites that work seamlessly across all devices</p>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>

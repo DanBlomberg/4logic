@@ -7,3 +7,28 @@ html,
 body {
 	@apply h-full overflow-hidden;
 }
+
+/* Custom dropdown animations */
+@layer utilities {
+	.backdrop-blur-sm {
+		backdrop-filter: blur(8px);
+	}
+	
+	.transition-transform {
+		transition-property: transform;
+		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	}
+	
+	.duration-200 {
+		transition-duration: 200ms;
+	}
+	
+	.duration-300 {
+		transition-duration: 300ms;
+	}
+}
+
+/* Smooth scrolling for dropdown content */
+.dropdown-content {
+	scroll-behavior: smooth;
+}
